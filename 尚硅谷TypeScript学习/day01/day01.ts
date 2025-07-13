@@ -3,7 +3,7 @@
  * @Author: LeJingS
  * @Date: 2025-07-13 16:42:13
  * @LastEditors: LeJingS
- * @LastEditTime: 2025-07-13 18:52:20
+ * @LastEditTime: 2025-07-13 19:22:52
  * Copyright: 2025 xxxTech CO.,LTD. All Rights Reserved.
  * @Descripttion: ts学习开始
  */
@@ -93,6 +93,13 @@ let g: Array<number>;
 let h: [string,number];
 h = ["hello",18];
 
+// 枚举
+enum fontSize{
+    small = 1,
+    medium,
+    large
+}
+let i: Color = Color.Red;
 
 
 
